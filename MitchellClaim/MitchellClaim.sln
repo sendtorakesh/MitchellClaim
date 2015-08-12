@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitchellClaim", "MitchellClaim\MitchellClaim.csproj", "{5185678B-983C-47B5-AC4E-315978DFB6BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07ED758D-8AC0-4390-B0A5-8E86FF1390C8} = {07ED758D-8AC0-4390-B0A5-8E86FF1390C8}
+		{9DEEDFC0-8CDC-4B90-BA84-BADC213AEE73} = {9DEEDFC0-8CDC-4B90-BA84-BADC213AEE73}
+		{FEF9F3CD-86A3-436F-9AD3-B7396D6203E7} = {FEF9F3CD-86A3-436F-9AD3-B7396D6203E7}
+		{C3EDF6F6-044B-4D90-A8C0-141A6ADCA3F3} = {C3EDF6F6-044B-4D90-A8C0-141A6ADCA3F3}
+		{B3935CFA-D25E-420C-9553-1FA6BEF16F09} = {B3935CFA-D25E-420C-9553-1FA6BEF16F09}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitchellClaim.Model", "MitchellClaim.Model\MitchellClaim.Model.csproj", "{07ED758D-8AC0-4390-B0A5-8E86FF1390C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitchellClaim.DataAccessLayer", "MitchellClaim.DataAccessLayer\MitchellClaim.DataAccessLayer.csproj", "{FEF9F3CD-86A3-436F-9AD3-B7396D6203E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07ED758D-8AC0-4390-B0A5-8E86FF1390C8} = {07ED758D-8AC0-4390-B0A5-8E86FF1390C8}
+		{B3935CFA-D25E-420C-9553-1FA6BEF16F09} = {B3935CFA-D25E-420C-9553-1FA6BEF16F09}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitchellClaim.Client", "MitchellClaim.Client\MitchellClaim.Client.csproj", "{085F65D8-733A-473D-9622-6B9EAA5161D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitchellClaim.Business", "MitchellClaim.Business\MitchellClaim.Business.csproj", "{9DEEDFC0-8CDC-4B90-BA84-BADC213AEE73}"
+	ProjectSection(ProjectDependencies) = postProject
+		{07ED758D-8AC0-4390-B0A5-8E86FF1390C8} = {07ED758D-8AC0-4390-B0A5-8E86FF1390C8}
+		{FEF9F3CD-86A3-436F-9AD3-B7396D6203E7} = {FEF9F3CD-86A3-436F-9AD3-B7396D6203E7}
+		{C3EDF6F6-044B-4D90-A8C0-141A6ADCA3F3} = {C3EDF6F6-044B-4D90-A8C0-141A6ADCA3F3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitchellClaim.Business.Tests", "MitchellClaim.Business.Tests\MitchellClaim.Business.Tests.csproj", "{7BE9A094-07F8-46F2-8333-BB35BBA54955}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9DEEDFC0-8CDC-4B90-BA84-BADC213AEE73} = {9DEEDFC0-8CDC-4B90-BA84-BADC213AEE73}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitchellClaim.DataAccessLayer.ErrorHandler", "MitchellClaim.DataAccessLayer.ErrorHandler\MitchellClaim.DataAccessLayer.ErrorHandler.csproj", "{B3935CFA-D25E-420C-9553-1FA6BEF16F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichelClaim.InterationTest", "MichelClaim.InterationTest\MichelClaim.InterationTest.csproj", "{33FB45C6-615D-4224-A634-564630218DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MitchellClaim.Common", "MitchellClaim.Common\MitchellClaim.Common.csproj", "{C3EDF6F6-044B-4D90-A8C0-141A6ADCA3F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5185678B-983C-47B5-AC4E-315978DFB6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5185678B-983C-47B5-AC4E-315978DFB6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5185678B-983C-47B5-AC4E-315978DFB6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5185678B-983C-47B5-AC4E-315978DFB6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07ED758D-8AC0-4390-B0A5-8E86FF1390C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07ED758D-8AC0-4390-B0A5-8E86FF1390C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07ED758D-8AC0-4390-B0A5-8E86FF1390C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07ED758D-8AC0-4390-B0A5-8E86FF1390C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF9F3CD-86A3-436F-9AD3-B7396D6203E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF9F3CD-86A3-436F-9AD3-B7396D6203E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF9F3CD-86A3-436F-9AD3-B7396D6203E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF9F3CD-86A3-436F-9AD3-B7396D6203E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{085F65D8-733A-473D-9622-6B9EAA5161D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085F65D8-733A-473D-9622-6B9EAA5161D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085F65D8-733A-473D-9622-6B9EAA5161D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085F65D8-733A-473D-9622-6B9EAA5161D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DEEDFC0-8CDC-4B90-BA84-BADC213AEE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEEDFC0-8CDC-4B90-BA84-BADC213AEE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEEDFC0-8CDC-4B90-BA84-BADC213AEE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEEDFC0-8CDC-4B90-BA84-BADC213AEE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE9A094-07F8-46F2-8333-BB35BBA54955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE9A094-07F8-46F2-8333-BB35BBA54955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE9A094-07F8-46F2-8333-BB35BBA54955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE9A094-07F8-46F2-8333-BB35BBA54955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3935CFA-D25E-420C-9553-1FA6BEF16F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3935CFA-D25E-420C-9553-1FA6BEF16F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3935CFA-D25E-420C-9553-1FA6BEF16F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3935CFA-D25E-420C-9553-1FA6BEF16F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FB45C6-615D-4224-A634-564630218DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FB45C6-615D-4224-A634-564630218DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FB45C6-615D-4224-A634-564630218DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FB45C6-615D-4224-A634-564630218DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3EDF6F6-044B-4D90-A8C0-141A6ADCA3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EDF6F6-044B-4D90-A8C0-141A6ADCA3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EDF6F6-044B-4D90-A8C0-141A6ADCA3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EDF6F6-044B-4D90-A8C0-141A6ADCA3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
